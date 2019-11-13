@@ -1,0 +1,21 @@
+@charset "utf-8";
+body{
+    background-color: #FFFFFF;
+}
+#main .logo, #main .mockup, #main .component {
+	margin: 0 auto;
+}
+#main .logo {
+	width: 300px;
+	height: auto;
+}
+#main .mockup {
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
+#main .component {
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
