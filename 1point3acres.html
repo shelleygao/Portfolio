@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1point3acres</title>
+	<link rel="stylesheet" href="./css/base.css" type="text/css">
+	<link rel="stylesheet" href="./css/1point3acres.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="main">
+		<div class="header">
+			<a href="file:///Users/paux/OneDrive/Job/interview/portfolio%20HTML/index.html"><div id="home"></div></a>
+			<a href="yiqihua.html"><div id="nextPro"></div></a>
+		</div>
+		<h1>1point3acres</h1>
+		<h4>Redesign project</h4>
+		<p>1point3acres is an organization dedicated to providing overseas Chinese with information on application of studying abroad, course study, employment, immigration and life in America.</p>
+		<p>In order to facilitate the use of mobile terminal users, 1point3acres copied the contents of the website BBS onto the app, mainly for information query, posting and discussion. After repeated experience of app and competitive product research, I came up with some ideas of my own. Of course, every product is the result of an elaborate design by a group of designers, and every design has a reason for being. Therefore, compared with external designers, only those who design the product know who their users are, their needs, the business goals of the company, and the current situation of their team. As an outsider, I can only experience the product as a user and show my own understanding and expectations.
+		</p>
+		<p>My personal understanding: <br>
+According to my current experience of app, from the perspective of users, I think users want to do the following two things when they open the app:<br>
+- Browse: 
+the process of behavior includes searching information, viewing the content they followed or the replies related their own posts, interacting with others (reply/comment), browsing randomly.<br>
+
+- Post: 
+the behavior process includes selecting sections classification, writing content (posts/feeds) and adding images.</p>
+		
+<p>
+So, when browsing:<br>
+- Let users find the content they want as soon as possible<br>
+- Focus on tasks and reduce distractions while browsing<br>
+- Make the operation simple and direct<br>
+
+When post content:<br>
+- Let the section choose intuitive<br>
+- Make the writing process natural</p>
+
+<p>Based on these ideas above, I would like to make the following changes on the current home page:</p>
+<div class="adjustment">
+1. The original five tabs "latest", "feeds", "hot", "my", "topic" are at the top, among which only "feeds" is word limit and similar to microblog content. Which needs to present not specific categories and detailed information, but brief and impromptu content. So move the "feeds" to the bottom navigation, focus on displaying posts on the home page.</div>
+<div class="adjustment">
+2. Put "my" tab that users most care about in the leftmost position that is opened by default, so that the first thing users can see is the content they are interested in. At the same time, users can switch to next two categories of "hot" and "latest" at will. I found that there was no difference between the "topics" section and the "hot" section, so I gave up the "topics" section for the time being.</div>
+<div class="adjustment">
+3. As a platform with a huge content offering, search will be used frequently. Users can find the content they want by precise keywords search and classification fuzzy search . Therefore, combining search and section classification in one area can satisfy different search methods of users.</div>
+<div class="adjustment">
+4. Move the "select interesting sections" in the upper left corner to the "personal center" in the lower right corner. Let users actively choose the section they are interested in when using the APP for the first time, and then they can enter the "personal center" for adjustment at any time.</div>
+<div class="adjustment">
+5. Writing is a behavior that users can use all the time in BBS or content-sharing applications, and it should be encouraged. So it makes sense to place a floating action button (FAB) in the bottom right corner of the home page, which is easier for one-handed users than it was in the top right corner.</div>
+<div class="adjustment">
+6. For gestures and motion, the bottom navigation, top TAB and FAB are hidden when swiping up the screen to increase screen space for content display and vice versa.</div>
+<div class="adjustment">
+7. In the post presentation, I want to give users more visible content than just the title, so I add two lines of content under the post title to make it more attractive for users to click.</div>
+<div class="adjustment">
+8. Remove the class tags from each post. The reason is that tags serve the classification of content, and the user's task during browsing is to focus on the content rather than tags, which are only needed when searching and publishing.</div>
+<div class="adjustment">
+9. Remove the icon of browsing and replying to each post and replace it with text. The reason is that the repetition of the eye icon on screen is a bit uncomfortable. When the number of times for browsing or replying is more than 1000, it is simplified to 1.0k, so that the number does not differ too much in length and is more orderly visually. These auxiliary information should be visually attenuated.</div>
+<p>Here is the redesigned mock-up:</p>
+<div class="mHomePage clearfix gray">
+	<div class="old"><img src="./img/1mHomeOld.png" alt="homepage" width="100%"><span class="textDescription">1point3acres home page at present</span></div>
+<div class="new"><img src="./img/1mHomeNew.png" alt="homepage" width="100%"><span class="textDescription">1point3acres home page redesign</span></div>
+</div>
+<p>In addition, I tried to redesign wireframe and workflow for "search" and "feeds" navigation sections:</p>
+<div class="wireframe"><img src="./img/1mWireframe.png" alt="Wireframe" width="100%"></div>
+<p>Design of mock-up and prototype::</p>
+<div class="video gray">
+	<video width="272" height="480" controls="controls"  muted="muted" loop="loop" autoplay="autoplay">
+  <source src="./video/1mPrototype720p.mp4" type="video/mp4" />
+</video>
+<div class="textDescription">Some post contents in the design come from 1point3acres</div>
+</div>
+<p>Finally, I have a design idea about the homepage of the official website.</p>
+<p>Considering that 1point3acres covers multiple independent business sites, these businesses are highly relevant to BBS users, but most users don't know about them. In other words, the website lacks a page for users to comprehensively understand the features of these businesses, so I designed a page like this:</p>
+<div class="video gray">
+	<video width="400" height="225" controls="controls"  muted="muted" loop="loop" autoplay="autoplay">
+  <source src="./video/1wHsA.mp4" type="video/mp4" />	
+</div>
+<div class="wHomePage gray"><img src="./img/1wHmockup.png" alt="website homepage" width="50%">
+	<div class="textDescription">Text content provided by 1point3acres</div>
+</div>
+
+
+
+	</div>
+
+</body>
+</html>
