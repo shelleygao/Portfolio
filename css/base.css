@@ -42,6 +42,15 @@ a {
 	text-decoration:none;
 	color: inherit;
 }
+.gray {
+	background-color: #F4F4F4;
+}
+.textDescription {
+    font-size: 14px;
+    color: #818181;
+    padding-top: 10px;
+    text-align: center;
+}
 .textLink {
 	color: #E67E22;
 	transition: 0.5s;
@@ -86,7 +95,7 @@ a {
 	padding-top: 120px;
 }
 #main h4 {
-	padding-bottom: 50px;
+	padding: 20px 0;
 }
 #main p {
 	padding-top: 50px;

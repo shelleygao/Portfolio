@@ -1,0 +1,34 @@
+@charset "utf-8";
+body{
+    background-color: #FFFFFF;
+}
+#main .mHomePage, #main .video, #main .wHomePage {
+	padding: 40px 0;
+	width: 100%;
+}
+#main .mHomePage .old, #main .mHomePage .new{
+    width:30%;
+    text-align: center;
+    margin: 0 auto;
+}
+#main .mHomePage .old {
+    float: left;
+    padding-left: 15%;
+}
+#main .mHomePage .new {
+    float: right;
+    padding-right: 15%;
+}
+video {
+	display: block;
+	margin: 0 auto;
+}
+#main .wHomePage {
+	margin: 0 auto;
+	text-align: center;
+}
+#main .adjustment {
+	padding-top: 20px;
+	line-height: 160%;
+}
+

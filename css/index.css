@@ -73,6 +73,9 @@ li {
 	width: 100%;
 	overflow: hidden;
 }
+#project .item .point {
+	background-color: #1E7289;   
+}
 #project .item .yi {
 	background-color: #BB2433;   
 }
