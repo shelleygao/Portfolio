@@ -110,3 +110,9 @@ a {
 	line-height: 0;
 	visibility: hidden;
 }
+@media screen and (max-width: 750px) {
+	h1 {
+		font-size: 70px;
+	}
+}
+
