@@ -73,33 +73,43 @@ li {
 	width: 100%;
 	overflow: hidden;
 }
+#project .item .text {
+	border-radius: 20px 0px 2px 2px;
+	display: inline-block;
+	padding: 10px 0;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	width: 100%;
+	/*line-height: 150%;*/
+	height: 40px;
+}
 #project .item .point {
-	background-color: #1E7289;   
+	/*background-color: #1E7289;*/
+	background: linear-gradient(to top left, #4ca2cd 0%, #67B26F 100%);   
 }
 #project .item .yi {
-	background-color: #BB2433;   
+	/*background-color: #BB2433;  */
+	background: linear-gradient(to top left, #DE6262 0%, #FFB88C 100%) 
 }
 #project .item .xin {
-	background-color: #2B3848;
+	/*background-color: #2B3848;*/
+	background: linear-gradient(to top left, #283E51 0%, #4B79A1 100%) 
 }
 #project .guide {
-	background-color: #2B6993;
+	/*background-color: #2B6993;*/
+	background: linear-gradient(to top left, #7474BF 0%, #348AC7 100%) 
 }
 #project .item .door {
-	background-color: #642D8B;
+	/*background-color: #642D8B;*/
+	background: linear-gradient(to top left, #5C258D 0%, #4389A2 100%) 
 }
 #project .item .graphic {
-	background-color: #C6A291;
+	/*background-color: #C6A291;*/
+	background: linear-gradient(to top left, #C5796D 0%, #DBE6F6 100%) 
 }
 #project .item .lot {
-	background-color: #FFC627;
-}
-#project .item .text {
-	padding: 10px;
-	background-color: rgba(255,255,255,0.9);
-	text-align: left;
-	line-height: 150%;
-	height: 60px;
+	/*background-color: #FFC627;*/
+	background: linear-gradient(to top left, #ffa751 0%, #ffe259 100%) 
 }
 #project .item .text p {
 	display: block;
